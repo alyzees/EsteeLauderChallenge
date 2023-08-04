@@ -11,6 +11,11 @@
 		2373C6F32A7CDC4D007625DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373C6F22A7CDC4D007625DE /* ContentView.swift */; };
 		2373C6F52A7CDC4F007625DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2373C6F42A7CDC4F007625DE /* Assets.xcassets */; };
 		2373C6F82A7CDC4F007625DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2373C6F72A7CDC4F007625DE /* Preview Assets.xcassets */; };
+		2373C7022A7CE66F007625DE /* AkzidenzGroteskBQ-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2373C7002A7CE66F007625DE /* AkzidenzGroteskBQ-Bold.ttf */; };
+		2373C7032A7CE66F007625DE /* AkzidenzGroteskBQ-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2373C7012A7CE66F007625DE /* AkzidenzGroteskBQ-Reg.ttf */; };
+		2373C7082A7CE685007625DE /* OptimaDisplay-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2373C7042A7CE685007625DE /* OptimaDisplay-Book.ttf */; };
+		2373C70B2A7CE685007625DE /* OptimaDisplay-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2373C7072A7CE685007625DE /* OptimaDisplay-Roman.ttf */; };
+		23AD21C52A7CF206008B6366 /* SocialMediaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD21C42A7CF205008B6366 /* SocialMediaPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		2373C6F22A7CDC4D007625DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2373C6F42A7CDC4F007625DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2373C6F72A7CDC4F007625DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2373C7002A7CE66F007625DE /* AkzidenzGroteskBQ-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Bold.ttf"; sourceTree = "<group>"; };
+		2373C7012A7CE66F007625DE /* AkzidenzGroteskBQ-Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Reg.ttf"; sourceTree = "<group>"; };
+		2373C7042A7CE685007625DE /* OptimaDisplay-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Book.ttf"; sourceTree = "<group>"; };
+		2373C7072A7CE685007625DE /* OptimaDisplay-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Roman.ttf"; sourceTree = "<group>"; };
+		2373C70C2A7CE7D6007625DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		23AD21C42A7CF205008B6366 /* SocialMediaPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,11 @@
 		2373C6EF2A7CDC4D007625DE /* EsteeLauderChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				2373C70C2A7CE7D6007625DE /* Info.plist */,
+				2373C6FF2A7CE61A007625DE /* Fonts */,
 				2373C6F02A7CDC4D007625DE /* EsteeLauderChallengeApp.swift */,
 				2373C6F22A7CDC4D007625DE /* ContentView.swift */,
+				23AD21C42A7CF205008B6366 /* SocialMediaPage.swift */,
 				2373C6F42A7CDC4F007625DE /* Assets.xcassets */,
 				2373C6F62A7CDC4F007625DE /* Preview Content */,
 			);
@@ -65,6 +79,17 @@
 				2373C6F72A7CDC4F007625DE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2373C6FF2A7CE61A007625DE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2373C7042A7CE685007625DE /* OptimaDisplay-Book.ttf */,
+				2373C7072A7CE685007625DE /* OptimaDisplay-Roman.ttf */,
+				2373C7002A7CE66F007625DE /* AkzidenzGroteskBQ-Bold.ttf */,
+				2373C7012A7CE66F007625DE /* AkzidenzGroteskBQ-Reg.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2373C6F82A7CDC4F007625DE /* Preview Assets.xcassets in Resources */,
+				2373C7022A7CE66F007625DE /* AkzidenzGroteskBQ-Bold.ttf in Resources */,
+				2373C7032A7CE66F007625DE /* AkzidenzGroteskBQ-Reg.ttf in Resources */,
+				2373C70B2A7CE685007625DE /* OptimaDisplay-Roman.ttf in Resources */,
+				2373C7082A7CE685007625DE /* OptimaDisplay-Book.ttf in Resources */,
 				2373C6F52A7CDC4F007625DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +168,7 @@
 			files = (
 				2373C6F32A7CDC4D007625DE /* ContentView.swift in Sources */,
 				2373C6F12A7CDC4D007625DE /* EsteeLauderChallengeApp.swift in Sources */,
+				23AD21C52A7CF206008B6366 /* SocialMediaPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +300,7 @@
 				DEVELOPMENT_TEAM = V78M6M9HUT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EsteeLauderChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +330,7 @@
 				DEVELOPMENT_TEAM = V78M6M9HUT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EsteeLauderChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
